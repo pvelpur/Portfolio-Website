@@ -27,6 +27,13 @@ app.get('/experience', (req, res) =>{
     res.render('experience', {})
 })
 
+app.get('/skills', (req, res) =>{
+    res.render('skills', {})
+})
+
+app.get('/contact', (req, res) =>{
+    res.render('contact', {})
+})
 
 app.listen(port, () => {
     console.log('Server started up on port ' + port)
