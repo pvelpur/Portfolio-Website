@@ -35,6 +35,14 @@ app.get('/contact', (req, res) =>{
     res.render('contact', {})
 })
 
+app.get('/UniversityProjects', (req, res) =>{
+    res.render('uniProjects', {})
+})
+
+app.get('/PersonalProjects', (req, res) =>{
+    res.render('PersonalProj', {})
+})
+
 app.listen(port, () => {
     console.log('Server started up on port ' + port)
 })
