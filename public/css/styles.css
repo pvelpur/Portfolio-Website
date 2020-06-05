@@ -28,10 +28,11 @@ body{
     width: 750px;
     padding: 40px;
     margin: 0 auto;
-    
 }
-span.answer{
-    color: #ccc
+p.answer{
+    color: #ccc;
+    padding-left: 3rem;
+    text-indent: -30px;
 }
 
 @media screen and (max-width:800px) {
