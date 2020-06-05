@@ -1,0 +1,42 @@
+html{
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body{
+    margin:0;
+    font-size: 14px;
+    color: #333333;
+}
+
+#terminal{
+    width:750px;
+    margin: 0 auto;
+    padding-top:20px;
+    background: #ccc;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    font-family: 'Source Code Pro', 'Sans-serif';
+    text-align: left;
+    font-size: 14px;
+    color: #fafafa;
+}
+
+#code {
+    background: #353535;
+    width: 750px;
+    padding: 40px;
+    margin: 0 auto;
+    
+}
+span.answer{
+    color: #ccc
+}
+
+@media screen and (max-width:800px) {
+    #terminal, #code {
+        width: 100%;
+        overflow: hidden;
+    }
+}

@@ -6,15 +6,50 @@
     <title>Prithvi Velpuri</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="/css/styles.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     
+
 </head>
 <body>
     {{>header}}
-    <div class="jumbotron text-center">
+    <div class="jumbotron text-center" style="margin-bottom: 0px;background-color: #ffffff">
         <h1 class="display-4 animate__animated animate__backInDown"><b>Prithvi Velpuri</b></h1>
         <h4>Hello World!</h4>
+    </div>
+    {{!-- Terminal-Like Style --}}
+    <div class="container" id="aboutMe">
+        <div id="terminal">
+            <div id="code">
+                > Prithvi.origin
+                <br>
+                <span class="answer">&nbsp;&nbsp;=> "Lake Zurich, IL" <br><br></span>
+                > Prithvi.education
+                <br>
+                <span class="answer">&nbsp;&nbsp;=> "Purdue University" <br><br></span>
+                > Prithvi.major
+                <br>
+                <span class="answer">&nbsp;&nbsp;=> "Bachelor of Science in Computer Engineering" <br><br></span>
+                > Prithvi.dateOfGraduation
+                <br>
+                <span class="answer">&nbsp;&nbsp;=> "May 2020" <br><br></span>
+                > Prithvi.experience.latest
+                <br>
+                <span class="answer">&nbsp;&nbsp;=> "Latest Work Experience<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Company: 'Walgreens' <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Role: 'Software Engineering Intern' <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Start_Date: 'June 3rd, 2019' <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;End_Date: 'August 9th, 2019' <br><br>
+                </span>
+                > Prithvi.Interests
+                <br>
+                <span class="answer">&nbsp;&nbsp;=> ['Coding', 'NBA', 'Bodybuilding', 'Tennis', 'Videogames', 'Drawing'] <br><br></span>
+                > Prithvi.email
+                <br>
+                <span class="answer">&nbsp;&nbsp;=> <a href='\contact'>pvelpur@purdue.edu</a></span>
+            </div>
+        </div>
     </div>
 
     <!-- jQuery library -->
